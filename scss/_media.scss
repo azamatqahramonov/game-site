@@ -1,0 +1,121 @@
+@media (max-width: 571px) {
+  body {
+    width: 390px;
+    height: 7464px;
+    top: -1265px;
+    left: 1572px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  /* Umumiy bo‘limlar */
+  .header__wrapper,
+  .hero__wrapper,
+  .help__wrapper,
+  .text__wrapper,
+  .about__wrapper,
+  .card__wrapper,
+  .company__wrapper,
+  .sign-up__wrapper,
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .help__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      width: 30%;
+    }
+  }
+
+.company__wrapper{
+    display: none;
+}
+
+  .header__list ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Buttonlar */
+  .btn,
+  .hero__btn {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .hero__btn {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  /* Hero section */
+  .hero__wrapper {
+    h2,
+    p {
+      text-align: center;
+    }
+  }
+
+  /* Cards */
+  .card-one,
+  .cards {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .card__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  /* Company section */
+  .company__logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .company__text {
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-end__wrapper {
+    span {
+      text-align: center;
+    }
+  }
+
+  /* Containerlar */
+  .header__container,
+  .hero__container,
+  .help__container,
+  .text__container,
+  .about__container,
+  .card__container,
+  .company__container,
+  .sign-up__container,
+  .footer__container {
+    width: 100%;
+    padding: 20px;
+  }
+}
