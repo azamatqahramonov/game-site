@@ -39,10 +39,53 @@
   .card__wrapper {
     display: flex;
     flex-direction: column;
+    height: 1600px;
   }
 
   .company__wrapper {
-    padding: 1400px 0;
+    width: 500px;
+    height: 600px;
+    padding: 800px 0;
+
+    h2 {
+      display: none;
+    }
+  }
+
+  .sign-up__text {
+    h2 {
+      display: none;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  .sign-up__container {
+    display: none;
+  }
+
+  .footer__wrapper {
+    padding: 1050px 0;
+    gap: 20px;
+  }
+
+  .footer-end__wrapper {
+  }
+
+img{
+  width: 80%;
+}
+
+.card-one{
+  img{
+    width: 20%;
+  }
+}
+
+  input {
+    display: none;
   }
 
   .text__wrapper {
