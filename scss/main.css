@@ -1,4 +1,3 @@
-@charset "UTF-8";
 li a {
   text-decoration: none;
 }
@@ -12,105 +11,68 @@ body {
 }
 
 @media (max-width: 571px) {
-  body {
-    width: 390px;
-    height: 7464px;
-    top: -1265px;
-    left: 1572px;
-    gap: 0px;
-    opacity: 0px;
-  }
-  /* Umumiy bo‘limlar */
-  .header__wrapper,
-  .hero__wrapper,
-  .help__wrapper,
-  .text__wrapper,
-  .about__wrapper,
-  .card__wrapper,
-  .company__wrapper,
-  .sign-up__wrapper,
-  .footer__wrapper {
-    display: flex;
+  .header__wrapper {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .help__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .help__wrapper img {
-    width: 30%;
-  }
-  .company__wrapper {
-    display: none;
   }
   .header__list ul {
     flex-direction: column;
     gap: 20px;
   }
-  /* Buttonlar */
   .btn,
   .hero__btn {
     width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 20px;
-  }
-  .hero__btn {
-    width: 100%;
-    padding: 10px 20px;
-  }
-  /* Hero section */
-  .hero__wrapper h2,
-  .hero__wrapper p {
+    height: auto;
     text-align: center;
+    padding: 10px;
   }
-  /* Cards */
-  .card-one,
-  .cards {
-    width: 90%;
-    margin: 10px 0;
-  }
-  .card__wrapper {
+  .hero__wrapper {
     flex-direction: column;
-    align-items: center;
   }
-  img {
-    width: 80%;
+  .hero__wrapper h2 {
+    font-size: 28px;
+    line-height: 36px;
   }
-  /* Company section */
-  .company__logo {
+  .hero__wrapper p {
+    font-size: 14px;
+  }
+  .card-one {
+    width: 100%;
+  }
+  .help__wrapper {
     flex-direction: column;
-    align-items: center;
     gap: 20px;
   }
-  .company__text {
+  .card__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .company__wrapper {
+    padding: 1400px 0;
+  }
+  .text__wrapper {
+    flex-direction: column;
     text-align: center;
   }
-  /* Footer */
+  .about__wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cards {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .company__logo {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .email,
+  .opinion,
+  .info {
+    width: 100%;
+  }
   .footer__wrapper {
     flex-direction: column;
-    align-items: center;
     text-align: center;
-  }
-  .footer-end__wrapper span {
-    text-align: center;
-  }
-  /* Containerlar */
-  .header__container,
-  .hero__container,
-  .help__container,
-  .text__container,
-  .about__container,
-  .card__container,
-  .company__container,
-  .sign-up__container,
-  .footer__container {
-    width: 100%;
-    padding: 20px;
   }
 }
 .header__container {
@@ -718,6 +680,10 @@ body {
   letter-spacing: 0.13em;
   text-align: left;
   color: #ffffff;
+}
+.footer-end__wrapper .footer__wrapper {
+  display: flex;
+  padding: 2000px 0;
 }
 .footer-end__wrapper .help__container {
   display: flex;

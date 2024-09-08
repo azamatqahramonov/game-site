@@ -523,14 +523,19 @@
     color: #ffffff;
   }
 
-  .help__container{
+  .footer__wrapper {
+    display: flex;
+    padding: 2000px 0;
+  }
+
+  .help__container {
     display: flex;
     justify-content: flex-start;
   }
 
   .sign-up {
-   input{
-    display: none;
-   }
+    input {
+      display: none;
+    }
   }
 }
